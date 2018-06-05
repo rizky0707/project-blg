@@ -10,7 +10,8 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::get('/action','VisitorController@belajar');
+Route::get('/pusing','VisitorController@lier');
 Route::resource('/', 'VisitorController');
 
 Route::get('/post/{id}', 'VisitorController@showPage');

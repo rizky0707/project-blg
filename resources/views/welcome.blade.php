@@ -5,6 +5,7 @@
   <h1>News
   </h1>
   <!-- Blog Post -->
+  
   @foreach($post as $data)
   <div class="card mb-4">
     <div class="card-body">
@@ -19,7 +20,6 @@
    </div>
  </div>
  @endforeach
-
  <!-- Pagination -->
  <ul class="pagination justify-content-center mb-4">
   <li class="page-item">

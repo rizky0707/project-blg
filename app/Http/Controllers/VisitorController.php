@@ -17,8 +17,20 @@ class VisitorController extends Controller
     public function index()
     {
         $post = Post::all();
-        return view('welcome')->with('post', $post);
+        return view('diajar')->with('post', $post);
     }
+
+    public function lier()
+    {
+        $test = "lier";
+        return view('contoh')->with('test',$test);
+    }
+
+    // public function belajar()
+    // {
+    //     $bel = "laravel";
+    //     return view('diajar')->with('bel',$bel);
+    // }
 
     /**
      * Show the form for creating a new resource.
